@@ -1,0 +1,5 @@
+name=input("Enter the name:")
+age=int(input("Enter the age:"))
+height=float(input("Enter the height:"))
+weight=float(input("Enter the weight:"))
+print(f"{name} is {age} years old with height {height} and weight {weight}")
