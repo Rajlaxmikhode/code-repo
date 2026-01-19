@@ -1,4 +1,5 @@
 import random
+emojis={"rock": "🪨", "paper": "📃", "scissor": "✂️"}
 choices=["rock","paper","scissor"]
 player_p=0
 computer_p=0
@@ -13,12 +14,11 @@ while True:
         print("Invalid choice!")
         continue
     computer=random.choice(choices)
-    print("player choise=",player)
-    print("computer choice=",computer)
+    print(f"player choise= {emojis[player]}")
+    print(f"computer choice= {emojis[computer]}")
     if ( player=="rock" and  computer=="scissor") or (player=="paper" and computer=="rock") or (player=="scissor" and computer=="paper"):
         player_p+=1
-        print("\n you won")
+        print("\n you won 🫵")
     else:
         computer_p+=1
-        print("computer won")
-
+        print("computer won 🖥️")
