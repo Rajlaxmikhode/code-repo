@@ -1,15 +1,20 @@
 n=int(input("Enter"))
-prime=n
+
 if (n>1):
-    for i in range(1,11):
+    is_prime=True
+    for i in range(2,n):
+        if n%i==0:
 
-        if (n%1==0) and (n%i!=0) and (n%n==0):
-           
-           print("Is prime",prime)               
+            is_prime=False
+            break
+    if is_prime:
+        print("The given number is a prime number")
+    else:
+        print(n,"Not a prime number")
+else:
+    print(n,"Not a prime number")
 
-        else:
-            print("Is not prime",prime)  
+
         
-
              
         
