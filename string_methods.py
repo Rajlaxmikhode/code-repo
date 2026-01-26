@@ -1,0 +1,17 @@
+st="Python_Programming"
+print(st.lower())
+print(st.upper())
+print(st.find("ython"))
+print(st.casefold())
+print(st.replace("Programming","Language"))
+print(st.isalpha())
+print(st.endswith("ing"))
+print(st.index("g"))
+s="hello {}"
+print(s)
+print(s.format("World"))
+print("hon" in st)
+print("py" not in st)
+print(s in st)
+print(s is not st)
+print(s.title())
