@@ -1,0 +1,11 @@
+import math
+print(round(78.7))
+print(abs(-78))
+print(math.ceil(7.8))
+print(max(89,88))
+print(min(68,9))
+print(math.sqrt(169))
+print(math.cos(0))
+print(math.tan(45))
+print(math.floor(78.4))
+print(math.ceil(86.8))
