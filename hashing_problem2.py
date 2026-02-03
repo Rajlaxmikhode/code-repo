@@ -1,5 +1,3 @@
-
-
 def frequency(arr):
     dic={}
 
