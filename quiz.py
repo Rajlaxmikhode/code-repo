@@ -13,6 +13,7 @@ def quiz():
              "question":"Even number is a divisible by _ ",
              "option":["a. 3","b. 5","c. 2","d. none"],
              "answer":"c"
+             
          },
           {
              "question":"Who discovered zero 0️⃣",
