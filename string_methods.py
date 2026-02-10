@@ -20,3 +20,7 @@ print(isinstance(st,str)) # returns true if the specified object is of specified
 st+=st2 # performs both oncatenation and assignment opertion
 print(st)
 print(f'{st} is a high level programminng {st2}')# intterpolaration is the process of inserting variables and expressions directly into string 'f-string is one of the method'
+print(st.split(" "))
+print(st.count("y"))
+print(st.startswith("Py"))
+print(st)
