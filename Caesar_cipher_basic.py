@@ -24,4 +24,13 @@ translate() = applying those replacements to a string
 """
 message = "ate"
 encrypted = message.translate(translation_table)
-print(encrypted)
+print("encrypted message: ",encrypted)
+
+t=str.maketrans("hl","bi")
+sentence="hello world"
+print(sentence.translate(t))
+
+
+
+
+
