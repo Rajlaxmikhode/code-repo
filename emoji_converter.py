@@ -6,6 +6,10 @@ emoji={
     ":(":"😔"}
 output=""
 for word in words:
-    output+=emoji.get(word,word) + " "
+    output+=emoji.get(word,word) + " " 
+    '''
+    If word exists in the dictionary → return emoji
+    If not → return the word itself
+    '''
 print(output)
 
