@@ -2,7 +2,7 @@
 import re
 text=input("Enter a string:").lower()
 
-text = re.sub(r'[^\w\s]', '', text) #replaces all matches of pattern in string with replacement. All punctuation is removed, only words and spaces remain.
+#text = re.sub(r'[^\w\s]', '', text) #replaces all matches of pattern in string with replacement. All punctuation is removed, only words and spaces remain.
 freq={}
 for word in text.split():
     if word in freq:
