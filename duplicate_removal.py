@@ -1,4 +1,4 @@
-li=[2,6,3,2,4,5,2]
+li=[2,6,3,2,4,5,2,2]
 li.sort()
 print("Sorted list:",li)
 new_li=[]
