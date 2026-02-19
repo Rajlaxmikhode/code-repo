@@ -95,6 +95,7 @@ for i in range(5):
 print("-------------------------------------")
 print()
 
+
 print("reverse hill pattern")
 print()
 for i in range(5):
@@ -108,6 +109,7 @@ for i in range(5):
 
 print("-------------------------------------")
 print()
+
 
 print("diamond shape ")
 print()
