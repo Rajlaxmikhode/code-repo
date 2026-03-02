@@ -8,6 +8,6 @@ def number_pattern(n):
       res+=str(i)+' '
     print(res)
     return res.strip
-num=int(input("Enter any number: "))
+num=input("Enter any number: ")
 
-number_pattern(num)
+print(number_pattern(num))
