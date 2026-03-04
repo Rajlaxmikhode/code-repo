@@ -20,6 +20,7 @@ collection3.add(10)
 collection3.add(False)
 collection3.add("manav")
 collection3.add(4.9)
+print(False in collection)
 print(collection.union(collection3))#merges both sets and removes duplicates
 print(collection.intersection(collection3))#Prints the common values in both sets
 print(collection.difference(collection3))#Prints the values that are not in common in both sets
