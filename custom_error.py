@@ -1,4 +1,3 @@
-
 var=input("Enter the value ")
 if (var=="quiz"):
     print(var)
