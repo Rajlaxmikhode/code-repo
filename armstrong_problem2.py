@@ -10,7 +10,6 @@ for i in range(1,1000):
         i=i//10
     if temp==num:
         print(temp)
-else:
-        print("bye")
+
     
 
