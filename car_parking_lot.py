@@ -31,9 +31,3 @@ while True:
             print("no cars to exit 🚪")
     if no_cars!=0:
         print("No of cars🚘  in parking lot:\n ",no_cars)
-      
-
-    
-
-
-

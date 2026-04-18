@@ -4,12 +4,8 @@ for i in range(1,1000):
     l=len(st)
     num=0
     while i>0:
-        r=i%10
-        
+        r=i%10  
         num += r ** l
         i=i//10
     if temp==num:
         print(temp)
-
-    
-

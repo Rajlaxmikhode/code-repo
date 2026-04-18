@@ -1,4 +1,4 @@
-st="aappyyhe"
+st="appaehyyhaehex"
 count={}
 for ch in st:
     count[ch]=count.get(ch,0)+1

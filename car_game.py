@@ -1,5 +1,4 @@
 start=False
-
 while True:
     user=input("Enter: ").lower()
     if user=="help":
