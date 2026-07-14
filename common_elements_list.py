@@ -16,4 +16,3 @@ if found:
     print("There is  a common element in the list:",i)
 else:
     print("no common element")
-    

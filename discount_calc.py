@@ -1,6 +1,5 @@
 #program to calculate discount
 
-
 def apply_discount(price, discount):
     if not isinstance(price, (int, float)):
         return "The price should be a number"
@@ -23,5 +22,3 @@ def apply_discount(price, discount):
 print(apply_discount(100, 80))
 print(apply_discount(200, 50))
 print(apply_discount(74.5, 20.0))
-
-

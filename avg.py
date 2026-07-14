@@ -3,4 +3,5 @@ def avg(*num):
         for i in num:
                 sum+=i
         return (sum)/len(num)
-print(avg(8,5,3,2,))
+numbers=list(map(int, input("Enter numbers to find average").split()))
+print(avg(*numbers)) 

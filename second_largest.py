@@ -6,6 +6,6 @@ for num in li:
        max1=num       
     elif num>max2 and num!=max1:
         max2=num
-print(max2)
+print("Second_largest = ",max2)
 
     

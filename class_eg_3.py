@@ -9,3 +9,4 @@ class Person:
 
 obj=Person("Maya")
 obj1=Person("Shanaya")
+obj.talk()

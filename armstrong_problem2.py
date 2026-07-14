@@ -2,10 +2,10 @@ for i in range(1,1000):
     temp=i
     st=str(i)
     l=len(st)
-    num=0
+    sum=0
     while i>0:
         r=i%10  
-        num += r ** l
+        sum += r ** l
         i=i//10
-    if temp==num:
+    if temp==sum:
         print(temp)

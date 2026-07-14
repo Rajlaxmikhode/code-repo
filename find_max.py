@@ -8,4 +8,6 @@ def max_value(*li):
     print("maximum: ",maximum)
 
     return maximum
-#max_value(21,23,11,34)
+
+
+max_value(201,23,11,34)

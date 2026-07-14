@@ -4,10 +4,10 @@ def find_max(*li):
     maximum=li[0]
     for i in li:
         if i>maximum:
-            max=i
+            maximum=i
     print("maximum: ",maximum)
 
     return maximum
-find_max(21,23,11,34)
+find_max(21,263,11,34)
 
 

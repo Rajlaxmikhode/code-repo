@@ -8,7 +8,6 @@ print(next(demo))
 print(next(demo))
 print(next(demo))
 
-
 # Without generator
 squares = []
 for i in range(5):
