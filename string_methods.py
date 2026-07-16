@@ -3,7 +3,7 @@ st2=" by guido van rossum"
 print(st.lower())
 print(st.upper())
 print(st.find("ython"))
-print(st.casefold())
+print(st.casefold()) # transforms upper letter to lower
 print(st.replace("Programming","Language"))
 print(st.isalpha())
 print(st.endswith("ing"))
