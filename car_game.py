@@ -20,6 +20,7 @@ quit-To quit the game
             start=False
             print("Car has stopped!")
     elif user =="quit":
+        print("Thanks for playing")
         break
     else:
         print("I don't understand")

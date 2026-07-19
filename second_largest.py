@@ -1,4 +1,4 @@
-li=[10,20,4,45,99]
+li= [1, 16, 70, 90, 90, 4, 70, 70]
 max1=max2=float('-inf')
 for num in li:
     if num>max1:

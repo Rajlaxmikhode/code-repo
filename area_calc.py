@@ -4,7 +4,7 @@ def calculate_area(length, width):
     
     
 def main():
-    length, width = map(int, input().split())
+    length, width = map(int, input("Enter length and width: 4m6").split())
     area = calculate_area(length, width)
     print(area)
 
